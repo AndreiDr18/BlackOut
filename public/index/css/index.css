@@ -1,6 +1,6 @@
 html {
-    
-    background-color: #F7B052!important;
+
+    background-color: #F7B052 !important;
 
     overflow-x: hidden;
 
@@ -14,13 +14,14 @@ body {
     height: 100% !important;
     background-image: url('/media/background.jpg') !important;
     background-size: cover !important;
-    background-repeat: none !important;
+    background-repeat: no-repeat !important;
 }
-.body_wrapper{
+
+.body_wrapper {
     width: 100%;
     height: 100%;
 
-    background-color:rgba(0,0,0,0.43);
+    background-color: rgba(0, 0, 0, 0.43);
 }
 
 nav {
@@ -29,20 +30,20 @@ nav {
     position: absolute;
     background-color: rgba(83, 56, 21, 0.7);
 
-    top:60%;
+    top: 60%;
 
-    border-radius:5px;
+    border-radius: 5px;
 
     z-index: 0;
-    display:flex;
+    display: flex;
 }
 
-a{
+a {
     text-decoration: none !important;
 }
 
-.c_navbar-nav{
-    display:inline-flex !important;
+.c_navbar-nav {
+    display: inline-flex !important;
     list-style-type: none;
 
     justify-content: center;
@@ -51,28 +52,32 @@ a{
     margin: 0;
     padding: 0;
 }
-.c_nav-item{
-    display:inline-flex !important;
+
+.c_nav-item {
+    display: inline-flex !important;
 
     justify-content: center;
     align-items: center;
 
-    margin-right:5rem;
-    margin-left:5rem;
+    margin-right: 5rem;
+    margin-left: 5rem;
 }
-.c_nav-link{
-    color:white;
+
+.c_nav-link {
+    color: white;
 }
-.nav-centered{
+
+.nav-centered {
     width: 50%;
-    height:100%;
+    height: 100%;
 
-    display:flex;
+    display: flex;
 }
 
-#nav-centered-right{
+#nav-centered-right {
     justify-content: right;
 }
+
 .bg-dark-transparent {
     background-color: rgba(0, 0, 0, 0.40) !important;
 }
@@ -85,8 +90,8 @@ a{
 
     position: relative;
 
-    margin-left:12em;
-    margin-right:12em;
+    margin-left: 12em;
+    margin-right: 12em;
 }
 
 .logo {
@@ -96,78 +101,100 @@ a{
     z-index: 1;
 }
 
-.concert-pic{
+.concert-pic {
     height: 232.5px;
 }
-.center-x{
-    display:flex;
+
+.center-x {
+    display: flex;
     justify-content: center;
 }
-.center-y{
-    display:flex;
+
+.center-y {
+    display: flex;
     align-items: center;
 }
 
-.main_CTA-container{
-    height:70%;
+.main_CTA-container {
+    height: 70%;
     flex-direction: column;
 }
 
-.main_CTA{
+.main_CTA {
     border: 1px solid black;
     border-radius: 10px;
-    padding:1rem;
-    color:black;
+    padding: 1rem;
+    color: black;
 
-    font-size:2rem;
+    font-size: 2rem;
 
-    background-color:rgba(96, 247, 69, 0.85);
+    background-color: rgba(96, 247, 69, 0.85);
 }
-.main_CTA:hover{
+
+.main_CTA:hover {
     border: 1px solid black;
     border-radius: 10px;
-    padding:1rem;
-    color:black;
+    padding: 1rem;
+    color: black;
 
-    font-size:2.1rem;
+    font-size: 2.1rem;
 
-    background-color:rgba(96, 247, 69, 1);
+    background-color: rgba(96, 247, 69, 1);
 }
 
-.c_container{
-    display:flex;
-    margin-left:10rem;
-    margin-right:10rem;
-    margin-bottom:10rem;
+.c_container {
+    display: flex;
+    margin-left: 10rem;
+    margin-right: 10rem;
+    margin-bottom: 10rem;
 }
-.c_container#main_carousel-container{
 
-    margin-top:20vh;
+.c_container#main_carousel-container {
+
+    margin-top: 20vh;
 
     flex-direction: column;
 }
-.owl-carousel#main_page-carousel{
-    padding:5px;
-    border:2px solid rgba(247, 176, 82, 0.3);
+
+.owl-carousel#main_page-carousel {
+    padding: 5px;
+    border: 2px solid rgba(247, 176, 82, 0.3);
 
 }
-.carousel_CTA{
-    font-size:1rem;
+
+.carousel_CTA {
+    font-size: 1rem;
 }
 
-.c_container#merch-container{
-    flex-direction:row;
+.c_container#merch-container {
+
+
+    background-size: contain;
+    background-repeat: no-repeat;
+
+    flex-direction: row;
+
+    z-index: 99;
+
+    margin-top: 90px !important;
 }
-.merch-img{
-    width:600px;
-    height:600px;
+#test{
+
+    background-image: url('data:image/svg+xml;utf8,<svg id="visual" viewBox="0 0 900 600" xmlns="http://www.w3.org/2000/svg"><rect x="0" y="0" width="900" height="600" fill="%2312090C"></rect><path d="M0 52L4.8 57.2C9.7 62.3 19.3 72.7 29 69.8C38.7 67 48.3 51 58 50.2C67.7 49.3 77.3 63.7 87 63.2C96.7 62.7 106.3 47.3 116 42.7C125.7 38 135.3 44 145 46.2C154.7 48.3 164.3 46.7 174 47.2C183.7 47.7 193.3 50.3 203 50.8C212.7 51.3 222.3 49.7 232 54.5C241.7 59.3 251.3 70.7 261 68.7C270.7 66.7 280.3 51.3 290 48.8C299.7 46.3 309.3 56.7 319 58.8C328.7 61 338.3 55 348 52.7C357.7 50.3 367.3 51.7 377 54.5C386.7 57.3 396.3 61.7 406 67.2C415.7 72.7 425.3 79.3 435.2 77.5C445 75.7 455 65.3 464.8 58.5C474.7 51.7 484.3 48.3 494 51C503.7 53.7 513.3 62.3 523 63.5C532.7 64.7 542.3 58.3 552 60.8C561.7 63.3 571.3 74.7 581 74.7C590.7 74.7 600.3 63.3 610 58.7C619.7 54 629.3 56 639 57.5C648.7 59 658.3 60 668 65C677.7 70 687.3 79 697 74.5C706.7 70 716.3 52 726 50.2C735.7 48.3 745.3 62.7 755 65.3C764.7 68 774.3 59 784 56C793.7 53 803.3 56 813 62.3C822.7 68.7 832.3 78.3 842 74C851.7 69.7 861.3 51.3 871 45.5C880.7 39.7 890.3 46.3 895.2 49.7L900 53L900 0L895.2 0C890.3 0 880.7 0 871 0C861.3 0 851.7 0 842 0C832.3 0 822.7 0 813 0C803.3 0 793.7 0 784 0C774.3 0 764.7 0 755 0C745.3 0 735.7 0 726 0C716.3 0 706.7 0 697 0C687.3 0 677.7 0 668 0C658.3 0 648.7 0 639 0C629.3 0 619.7 0 610 0C600.3 0 590.7 0 581 0C571.3 0 561.7 0 552 0C542.3 0 532.7 0 523 0C513.3 0 503.7 0 494 0C484.3 0 474.7 0 464.8 0C455 0 445 0 435.2 0C425.3 0 415.7 0 406 0C396.3 0 386.7 0 377 0C367.3 0 357.7 0 348 0C338.3 0 328.7 0 319 0C309.3 0 299.7 0 290 0C280.3 0 270.7 0 261 0C251.3 0 241.7 0 232 0C222.3 0 212.7 0 203 0C193.3 0 183.7 0 174 0C164.3 0 154.7 0 145 0C135.3 0 125.7 0 116 0C106.3 0 96.7 0 87 0C77.3 0 67.7 0 58 0C48.3 0 38.7 0 29 0C19.3 0 9.7 0 4.8 0L0 0Z" fill="%23F7B052" stroke-linecap="round" stroke-linejoin="miter"></path></svg>');
+    width:100%;
+
 }
 
-@media only screen and (min-width:1880px){
+.merch-img {
+    width: 600px;
+    height: 600px;
+}
+
+@media only screen and (min-width:1880px) {
     body {
         margin: 0 !important;
         padding: 0 !important;
-    
+
         width: 100% !important;
         height: 100% !important;
         background-image: url('/media/background.jpg') !important;
